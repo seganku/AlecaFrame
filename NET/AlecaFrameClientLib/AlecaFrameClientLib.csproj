@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>AlecaFrameClientLib</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>15.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>..\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <HintPath>..\Microsoft.Toolkit.Uwp.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>..\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonDiffPatch">
+      <HintPath>..\JsonDiffPatch.dll</HintPath>
+    </Reference>
+    <Reference Include="UACHelper">
+      <HintPath>..\UACHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\AlecaFramePublicLib\AlecaFramePublicLib.csproj" />
+    <ProjectReference Include="..\AF_DamageCalculatorLib\AF_DamageCalculatorLib.csproj" />
+  </ItemGroup>
+</Project>
